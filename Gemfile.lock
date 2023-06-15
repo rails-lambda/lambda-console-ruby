@@ -1,0 +1,25 @@
+PATH
+  remote: .
+  specs:
+    lambda-console-ruby (1.0.0)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    minitest (5.18.0)
+    mocha (2.0.4)
+      ruby2_keywords (>= 0.0.5)
+    rake (13.0.6)
+    ruby2_keywords (0.0.5)
+
+PLATFORMS
+  arm64-darwin-22
+
+DEPENDENCIES
+  lambda-console-ruby!
+  minitest
+  mocha
+  rake
+
+BUNDLED WITH
+   2.4.13
